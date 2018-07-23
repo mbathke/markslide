@@ -1,0 +1,20 @@
+{
+  "name": "markslide",
+  "version": "1.0.0",
+  "description": "markdown slides",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbathke/markslide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mbathke/markslide/issues"
+  },
+  "homepage": "https://github.com/mbathke/markslide#readme"
+}
