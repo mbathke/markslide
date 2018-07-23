@@ -6,7 +6,7 @@ socket.on('content', function (data) {
   contentElem.innerHTML = data;
 
   Array.prototype.slice.call(document.querySelectorAll('code')).forEach(function (item) {
-    item.parentNode.classList.add(this.getAttribute('class'));
+    item.parentNode.classList.add(item.getAttribute('class'));
   });
 
   Array.prototype.slice.call(document.querySelectorAll('pre')).forEach(function (item) {
