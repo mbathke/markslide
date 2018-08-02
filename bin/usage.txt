@@ -1,0 +1,23 @@
+usage: markslide {COMMANDS} <PATH> {OPTIONS}
+
+  Previews markdown from PATH in browser and watches for changes.
+
+COMMANDS:
+
+  start PATH      Starts watching a file on a given absolute PATH.
+  stop            Stops the markslide process.
+
+OPTIONS:
+
+  -h, --help      Help.
+  --open          Opens the preview in the browser.
+  --verbose       Provides debug messages.
+  --port PORT     Specifies the port to use.
+  --browser       Specifies the browser command line to execute.
+
+EXAMPLES:
+
+  markslide start README.md --port 4242
+  markslide start README.md --open --browser "firefox -P markslide"
+  markslide start README.md --open --browser "'google chrome' --incognito"
+  markslide stop
